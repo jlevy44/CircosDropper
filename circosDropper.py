@@ -2,8 +2,8 @@ from fai2karyotypeMod import fai2karyotype
 from bed2linkfileMod import bed2link
 from SyntenyFinalMod import unout2bed
 from generateConfigsMod import generateConfigs
-from svglib.svglib import svg2rlg
-from reportlab.graphics import renderPDF
+#from svglib.svglib import svg2rlg
+#from reportlab.graphics import renderPDF
 import os, subprocess
 def gff2sort2(gff, pathgff='./', pathsort='./'):
     """Takes a gffFiles and converts them to sort2 files to use in the final synteny analysis.
